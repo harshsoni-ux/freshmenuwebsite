@@ -10,8 +10,10 @@
     </v-app-bar>
 
     <!-- Body -->
+     <breadcrumb/>
     <v-content light>
       <nuxt /> 
+      <carousel/>
     </v-content>
     
     <!-- Footer -->
