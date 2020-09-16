@@ -1,8 +1,9 @@
 <template>
   <v-carousel
     cycle
-    height="400"
+    height="300"
     hide-delimiter-background
+    delimiter-icon="mdi-minus"
     show-arrows-on-hover
   >
     <v-carousel-item

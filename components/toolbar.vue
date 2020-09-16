@@ -1,14 +1,30 @@
 <template>
-  <img
-    class="VuetifyLogo"
-    alt="Vuetify Logo"
-    src="vuetify-logo.svg"
+  <v-card
+    class="pa-4"
+    flat
+    height="400px"
+    img="Foodimage.jpg"
   >
-</template>
+    <v-toolbar 
+      
+      justify="center"
+      dense
+      floating
+      color=white
+    >
+      <v-text-field
+        hide-details
+        color=black;
+        single-line 
+      ></v-text-field>
 
-<style>
-.VuetifyLogo {
-  height: 50px;
-  width: 50px;
-}
-</style>
+      <v-btn color=black icon>
+          <v-icon>mdi-magnify</v-icon>
+        </v-btn>
+
+      <v-btn color=black icon>
+        <v-icon>mdi-dots-vertical</v-icon>
+      </v-btn>
+    </v-toolbar>
+  </v-card>
+</template>
