@@ -30,8 +30,8 @@
     data: () => ({
       cards: [
         { src: 'bestofferimg.jpeg' },
-        { src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg' },
-        { src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg'  },
+        { src: 'bestofferimg2.jpg' },
+        { src: 'bestofferimg3.jpg'  },
         
       ],
     }),

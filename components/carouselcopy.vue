@@ -29,8 +29,8 @@
     data: () => ({
       cards: [
         { src: 'bestsellerimg.jpeg', flex: 4 },
-        { src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4 },
-        { src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 4 },
+        { src: 'bestsellerimg2.JPG', flex: 4 },
+        { src: 'bestsellerimg3.jpg', flex: 4 },
         
       ],
     }),
