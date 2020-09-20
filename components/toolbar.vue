@@ -3,28 +3,51 @@
     class="pa-4"
     flat
     height="400px"
-    img="Foodimage.jpg"
+    img="foodimage.jpg"
   >
-    <v-toolbar 
       
-      justify="center"
-      dense
-      floating
-      color=white
-    >
-      <v-text-field
-        hide-details
-        color=black;
-        single-line 
-      ></v-text-field>
+    <v-row align="center">
+    <v-btn large>CATEGORY</v-btn>
+      <v-col align="right">
 
-      <v-btn color=black icon>
-          <v-icon>mdi-magnify</v-icon>
-        </v-btn>
+        <v-btn text icon>
+          <v-icon Normal color="black">mdi-magnify</v-icon>
+         </v-btn>
+        <v-btn text x-large color="black">OFFERS</v-btn>
 
-      <v-btn color=black icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-    </v-toolbar>
+      </v-col>
+    </v-row>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        
+    <v-row align="end">
+      <v-col md="4" offset-md="4" >
+        <v-text-field centered="false"
+          hide-details 
+          label="Filled" 
+          placeholder="Location" 
+          solo
+          color="white"
+          light
+          rounded 
+          dense 
+          single-line 
+          append-icon="mdi-magnify" class="shrink"> 
+        </v-text-field>
+      </v-col>
+    </v-row>
+
+          
+
+       
+     
   </v-card>
 </template>

@@ -7,8 +7,7 @@
       <v-spacer></v-spacer>
 
       <v-btn color=black icon>
-      help
-        <v-icon></v-icon>
+        help
       </v-btn>
 
 

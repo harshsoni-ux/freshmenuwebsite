@@ -42,9 +42,9 @@ export default {}
     border: 1px solid;
   }
 
-   /*#inspire {
-    background-color: white;
+   #inspire {
+    background-color: grey;
     color: black;
   }
-  */
+  
 </style>
