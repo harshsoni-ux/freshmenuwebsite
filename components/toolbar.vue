@@ -7,12 +7,12 @@
   >
       
     <v-row align="center">
-    <v-btn large>CATEGORY</v-btn>
+     <v-btn large>CATEGORY</v-btn>
       <v-col align="right">
 
         <v-btn text icon>
           <v-icon Normal color="black">mdi-magnify</v-icon>
-         </v-btn>
+        </v-btn>
         <v-btn text x-large color="black">OFFERS</v-btn>
 
       </v-col>

@@ -3,20 +3,33 @@
   <v-content>
     <toolbar/>
     <br>
-    <u>BEST OFFERS</u>
+    <v-row>
+      <v-col>
+       <v-icon text normal color="black"> BEST OFFERS</v-icon>
+      </v-col>
+    </v-row>
     <cc/>
     <v-divider></v-divider>
     <br>
      
 
-    <u>BEST SELLERS</u>
+    <v-row>
+      <v-col>
+       <v-icon text normal color="black"> BEST SELLERS</v-icon>
+      </v-col>
+    </v-row>
     <carouselcopy/>
     <v-divider></v-divider>
     <br>
     <br>
     <br>
+    <br>
 
-    <u>CATEGORIES</u>
+    <v-row>
+      <v-col>
+       <v-icon text normal color="black"> CATEGORIES</v-icon>
+      </v-col>
+    </v-row>
     <Cardscopy3/> 
   </v-content>
   

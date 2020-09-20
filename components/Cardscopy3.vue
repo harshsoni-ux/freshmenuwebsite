@@ -1,30 +1,29 @@
 <template>
   
-
-    <v-container fluid>
-      <v-row justify="center"
-       class="mx-auto">
-        <v-col
-          v-for="card in cards"
-          :key="card.title"
-          :cols="12" md="4" sm="4"
-        >
-          <v-card>
-            <v-img
-              :src="card.src"
-              class="white--text"
-              blur
-              height="200px"
-            >
-              <v-card-title v-text="card.title"></v-card-title>
-            </v-img>
+  <v-container fluid>
+    <v-row justify="center"
+      class="mx-auto">
+      <v-col
+        v-for="card in cards"
+        :key="card.title"
+        :cols="12" md="4" sm="4"
+       >
+        <v-card>
+          <v-img
+            :src="card.src"
+            class="white--text"
+            blur
+            height="200px"
+          >
+            <v-card-title v-text="card.title"></v-card-title>
+          </v-img>
 
             
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-card>
+         </v-card>
+       </v-col>
+    </v-row>
+  </v-container>
+  
 </template>
 
 <script>

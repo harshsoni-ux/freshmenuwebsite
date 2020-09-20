@@ -8,7 +8,7 @@
     <!--
      <v-app-bar color="white" dark fixed app>
       <v-toolbar-title>Application</v-toolbar-title>
-       <!-- Component Example -->
+        Component Example -->
     <!--
       <VuetifyLogo/>
       
