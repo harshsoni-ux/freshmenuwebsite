@@ -6,16 +6,16 @@
       <v-col
         v-for="card in cards"
         :key="card.title"
-        :cols="12" md="4" sm="4"
+        :cols="12" lg="4" md="4" sm="6" 
        >
         <v-card>
           <v-img
             :src="card.src"
             class="white--text"
             blur
-            height="200px"
+            height="180px"
           >
-            <v-card-title v-text="card.title"></v-card-title>
+            <v-card-title  v-text="card.title" class="text-h5 font-weight-medium"></v-card-title>
           </v-img>
 
             

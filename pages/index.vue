@@ -5,7 +5,7 @@
     <br>
     <v-row>
       <v-col>
-       <v-icon text normal color="black"> BEST OFFERS</v-icon>
+       <v-text class="text-body1 ml-2 text-decoration-underline" color="black"> BEST OFFERS</v-text>
       </v-col>
     </v-row>
     <cc/>
@@ -15,7 +15,7 @@
 
     <v-row>
       <v-col>
-       <v-icon text normal color="black"> BEST SELLERS</v-icon>
+       <v-text class="text-body1 ml-2 text-decoration-underline" color="black"> BEST SELLERS</v-text>
       </v-col>
     </v-row>
     <carouselcopy/>
@@ -23,14 +23,14 @@
     <br>
     <br>
     <br>
-    <br>
 
     <v-row>
       <v-col>
-       <v-icon text normal color="black"> CATEGORIES</v-icon>
+       <v-text class="text-body1 ml-2 text-decoration-underline" color="black"> CATEGORIES</v-text>
       </v-col>
     </v-row>
     <Cardscopy3/> 
+    
   </v-content>
   
 </template>

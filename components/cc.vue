@@ -6,13 +6,13 @@
       <v-col
           
         v-for="card in cards"
-        :cols="12" md="4"
+        :cols="12" lg="4" md="4" sm="6"
       >
         <v-card>
           <v-img
             :src="card.src"
-            class="white--text align-end"
-            height="300px"
+            
+            height="280px"
           >
               
           </v-img>

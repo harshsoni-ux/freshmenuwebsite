@@ -4,14 +4,15 @@
     <v-row justify="center"
       class="mx-auto">
       <v-col
+          
         v-for="card in cards"
-        :cols="card.flex"
-       >
+        :cols="12" lg="4" md="4" sm="6"
+      >
         <v-card>
           <v-img
             :src="card.src"
-            class="white--text align-end"
-            height="300px"
+            
+            height="280px"
           >
               
           </v-img>
@@ -28,9 +29,9 @@
   export default {
     data: () => ({
       cards: [
-        { src: 'bestsellerimg.jpeg', flex: 4 },
-        { src: 'bestsellerimg2.JPG', flex: 4 },
-        { src: 'bestsellerimg3.jpg', flex: 4 },
+        { src: 'bestsellerimg.jpeg' },
+        { src: 'bestsellerimg2.JPG' },
+        { src: 'bestsellerimg3.jpg'  },
         
       ],
     }),

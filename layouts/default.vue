@@ -3,7 +3,9 @@
   <v-app id="inspire">
     
     <!--Header -->
+    
     <densetoolbar/>
+    
     
     <!--
      <v-app-bar color="white" dark fixed app>
@@ -26,7 +28,7 @@
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="white" app>
+    <v-footer color="white" >
       <span class="black--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 

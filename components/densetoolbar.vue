@@ -1,6 +1,6 @@
 <template>
   
-  <v-toolbar color=white dense>
+  <v-toolbar color=white dense lg="12" md="12" sm="12">
 
     <FreshMenuLogo/>
      
