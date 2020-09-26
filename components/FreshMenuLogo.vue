@@ -1,5 +1,6 @@
 <template>
   <img
+    
     class="FreshMenu"
     alt="FreshMenu logo"
     src="FreshMenuLogo.png"

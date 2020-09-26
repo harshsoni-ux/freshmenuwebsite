@@ -2,19 +2,19 @@
   
   <v-container fluid>
     <v-row justify="center"
-      class="mx-auto">
+      class="mx-auto"> <!--v-for will create a forloop for every single 'card' that will extract info from 'cards' in js script-->
       <v-col
-        v-for="card in cards"
+        v-for="card in cards" 
         :key="card.title"
-        :cols="12" lg="4" md="4" sm="6" 
-       >
+        :cols="12" lg="4" md="4" sm="4" 
+       > <!--need to define column occupancy for all screen sizes in order to keep it responsive-->
         <v-card>
           <v-img
             :src="card.src"
             class="white--text"
             blur
             height="180px"
-          >
+          > <!--src="card.src" will take the image from the js script-->
             <v-card-title  v-text="card.title" class="text-h5 font-weight-medium"></v-card-title>
           </v-img>
 
