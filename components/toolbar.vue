@@ -12,7 +12,7 @@
         <v-row align="center">
           <v-col 
             cols="2" >
-            <v-btn height="40" top class="yellow darken-2 mt-lg-n12 ml-lg-n5 mt-md-n12 ml-md-n5 mt-sm-n12 ml-sm-n5 mt-n10 ml-n6 rounded-0 " >CATEGORY</v-btn>
+            <v-btn height="40" top class="yellow darken-2 mt-lg-n12 ml-lg-n5 mt-md-n12 ml-md-n5 mt-sm-n12 ml-sm-n5 mt-n9 ml-n4 rounded-0 " >CATEGORY</v-btn>
           </v-col>
           <v-col align="right"
             cols="12" lg="4" md="4" sm="4" offset-lg="6" offset-md="6" offset-sm="6"> <!-- offset defines the space of the component from the left side-->
