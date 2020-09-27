@@ -24,13 +24,14 @@
     <br>
     <br>
 
-    <v-row>
-      <v-col>
-       <v-text class="text-body1 ml-2 text-decoration-underline" color="black"> CATEGORIES</v-text>
-      </v-col>
-    </v-row>
-    <Cardscopy3/> 
-    
+    <section id="categories">
+      <v-row>
+        <v-col>
+        <v-text class="text-body1 ml-2 text-decoration-underline" color="black"> CATEGORIES</v-text>
+        </v-col>
+      </v-row>
+      <Cardscopy3/> 
+    </section>
   </v-content>
   
 </template>
