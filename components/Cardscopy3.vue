@@ -1,7 +1,7 @@
 <template>
   
   <v-container fluid>
-    <v-row justify="center"
+    <v-row 
       class="mx-auto"> <!--v-for will create a forloop for every single 'card' that will extract info from 'cards' in js script-->
       <v-col
         v-for="card in cards" 
@@ -11,8 +11,8 @@
         <v-card>
           <v-img
             :src="card.src"
-            class="white--text"
-            blur
+            class="white--text "
+            gradient="to top left, rgba(100,100,100,.33), rgba(25,32,25,.2)"
             height="180px"
           > <!--src="card.src" will take the image from the js script-->
             <v-card-title  v-text="card.title" class="text-h5 font-weight-medium"></v-card-title>
@@ -44,3 +44,4 @@
     }),
   }
 </script>
+

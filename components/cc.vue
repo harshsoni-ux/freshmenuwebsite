@@ -5,7 +5,7 @@
       <v-col
         :cols="12" lg="4" md="4" sm="6"
       > <!--need to define column occupancy for all screen sizes in order to keep it responsive-->
-        <v-card height="280px" class="d-lg-flex py-sm-4 py-lg-0 py-md-7 py-5"> <!--flex means visibility and py,px,pt etc is for padding-->
+        <v-card height="280px" class="d-lg-flex py-sm-4 py-lg-0 py-md-7 py-3"> <!--flex means visibility and py,px,pt etc is for padding-->
           <v-img
             src="bestofferimg.jpeg"
             

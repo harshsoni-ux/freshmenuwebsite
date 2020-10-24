@@ -9,7 +9,8 @@
       </v-col>
     </v-row>
     <cc/>
-    <v-divider></v-divider>
+    <br>
+    <v-divider color="black"></v-divider>
     <br>
      
 
@@ -19,8 +20,8 @@
       </v-col>
     </v-row>
     <carouselcopy/>
-    <v-divider></v-divider>
     <br>
+    <v-divider color="black"></v-divider>
     <br>
     <br>
 
