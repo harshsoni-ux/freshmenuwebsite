@@ -24,9 +24,9 @@
         <v-card
         
           color="white"
-          class="ma-2 py-2 "
+          class="ma-2 py-1 "
           height="240"
-          max-width="750"
+          max-width="800"
 
 
           
