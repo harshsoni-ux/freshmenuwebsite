@@ -9,7 +9,7 @@
     active-class="success"
     height="400"
     v-model="model"
-    
+    show-arrows
     light
       
     >
@@ -24,8 +24,9 @@
         <v-card
         
           color="white"
-          class="ma-3 py-1"
+          class="ma-2 py-1"
           height="240"
+          max-width="800"
 
 
           

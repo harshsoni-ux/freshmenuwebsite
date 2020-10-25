@@ -3,13 +3,13 @@
     
     class="FreshMenu"
     alt="FreshMenu logo"
-    src="FreshMenuLogo.png"
+    src="FreshMenuLogo.png" 
   >
-</template>
+</template> <!-- 'src' extracts the image from the 'static' folder-->
 
-<style>
+<style> /*height and width of the original image needs to be put so that it doesn't get distorted*/
 .FreshMenu {
-  height: 105px;
+  height: 105px; 
   width: 175px;
 }
 </style>

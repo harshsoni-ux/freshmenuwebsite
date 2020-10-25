@@ -9,7 +9,7 @@
     active-class="success"
     height="400"
     v-model="model"
-    
+    show-arrows
     light
       
     >
@@ -24,8 +24,9 @@
         <v-card
         
           color="white"
-          class="ma-3 py-1"
+          class="ma-2 py-2 "
           height="240"
+          max-width="750"
 
 
           
@@ -53,22 +54,22 @@
       return {
         items: [
           {
-            src: 'bestofferimg.jpeg',
+            src: 'bestsellerimg.jpeg',
           },
           {
-            src: 'bestofferimg2.jpg',
+            src: 'bestsellerimg2.jpg',
           },
           {
-            src: 'bestofferimg3.jpg',
+            src: 'bestsellerimg3.jpg',
           },
           {
-            src: 'bestofferimg4.png',
+            src: 'bestsellerimg4.png',
           },
           {
-            src: 'bestofferimg5.png',
+            src: 'bestsellerimg5.png',
           },
           {
-            src: 'bestofferimg6.png',
+            src: 'bestsellerimg6.png',
           },
         ],
       }

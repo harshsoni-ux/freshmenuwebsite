@@ -1,5 +1,5 @@
 <template>
-  <!--Your App Starts Here -->
+  
   <v-app id="inspire">
     
     <!--Header -->
@@ -20,17 +20,6 @@
     
     </v-app-bar>
     
-    
-    
-    <!--
-     <v-app-bar color="white" dark fixed app>
-      <v-toolbar-title>Application</v-toolbar-title>
-        Component Example -->
-    <!--
-      <VuetifyLogo/>
-      
-    </v-app-bar> 
-    -->
 
     <!-- Body -->
      
@@ -47,7 +36,7 @@
 
   </v-app>
 </template>
-<style> 
+<style> /* style defines looks of the whole website */
    #inspire {
     background-color: white;
     color: black;

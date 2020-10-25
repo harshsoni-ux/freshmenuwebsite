@@ -26,7 +26,7 @@
   
 </template>
 
-<script>
+<script> //'cards:' below holds the data, which is extracted by the 'card.src' code in html. This way we don't have to add img.src individually in html 
   export default {
     data: () => ({
       cards: [
