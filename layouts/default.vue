@@ -23,13 +23,13 @@
 
     <!-- Body -->
      
-    <v-content light>
+    <v-main light>
    
       <nuxt /> 
       
       <button/>
      
-    </v-content>
+    </v-main>
     
     <!-- Footer -->
     <Footer/>
