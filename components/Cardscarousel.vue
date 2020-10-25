@@ -6,9 +6,9 @@
     color="white"
   >
     <v-slide-group
-    active-class="success"
+    
     height="400"
-    v-model="model"
+    
     show-arrows
     light
       
