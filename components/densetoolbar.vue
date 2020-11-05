@@ -11,7 +11,7 @@
     </v-btn>
 
 
-    <v-btn color=black icon>
+    <v-btn color=black icon> <!-- color=black defines that the icon or the button should be black in colour-->
       <v-icon>mdi-account</v-icon> 
     </v-btn>
 
