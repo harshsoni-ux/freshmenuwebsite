@@ -15,7 +15,7 @@
     >
       <v-slide-item
        v-for="item in items"
-      
+       :key
       
       
         

@@ -58,7 +58,9 @@
               rounded 
               dense 
               single-line 
-              append-icon="mdi-magnify" class="shrink"> 
+              append-icon="mdi-crosshairs-gps"class="shrink" 
+              >
+              
             </v-text-field>
           </v-col>
         </v-row>
