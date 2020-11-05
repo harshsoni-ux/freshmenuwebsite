@@ -1,6 +1,6 @@
 <template>
   
-  <v-content>
+  <v-main>
     <toolbar/>
     <br>
     <v-row>
@@ -33,7 +33,7 @@
       </v-row>
       <Cardscopy3/> 
     </section>
-  </v-content>
+  </v-main>
   
 </template>
 
