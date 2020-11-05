@@ -16,7 +16,7 @@
       <!-- 'show arrows' is for the arrows that are on the opposite sides of the carousel-->
       <v-slide-item
        v-for="item in items"
-       :key 
+       :key
       
       
         
